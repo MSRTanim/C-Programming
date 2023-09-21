@@ -84,6 +84,175 @@ The format specifier of a float is "%f"
       scanf("%f",&b);
       printf("%f",b);
 
+## Double type
+To store a double-precision floating-point value we use double.
+
+      double variable_name;
+
+The format specifier of double is "%f"
+
+      double ch;
+      scanf("%lf",&ch);
+      printf("%lf",ch);
+
+## Void type
+The void type in C represents the absence of a type. It's often used in function declarations to specify that the function does not return any value. For example:
+
+      void myFunction() {
+      // Function code here
+      }
+In this context, the void keyword indicates that myFunction does not return a value. It can also be used for function parameters to indicate that a function takes no arguments
+
+## Escape Sequences
+Escape sequences in C are combinations of characters that begin with a backslash (\) and are used to represent characters that cannot be typed directly. These sequences are interpreted in a special way when used inside string literals or character constants.
+
+For example, the escape sequence \n represents a newline character, and \t represents a tab character. Here are some escape sequence characters used in C language.
+
+## Alarm or Beep
+\a produces a beep sound
+
+      #include<stdio.h>
+      int main()
+      {
+      printf("\a"); // It produces a beep sound
+      return 0;
+      }
+
+## Backspace
+\b adds a backspace
+
+      #include<stdio.h>
+      int main()
+      {
+    printf("Hello\bWorld"); // It prints "HellWorld"
+    return 0;
+    }
+
+## Form feed
+
+      #include<stdio.h>
+      int main()
+      {
+    printf("Page break here\fContinue text"); // It may create a page break, but it's not supported everywhere
+    return 0;
+    }
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
 ## Boilerplate Code
 
       pkg intall git
