@@ -3,7 +3,11 @@ This is a source file for C Programming Language. Read attentively the Redme fil
 
 [![MasterHead](https://media.tenor.com/qJ5evVs-_uUAAAAC/coding.gif)](http://www.msrtanim.xyz)
 
-# Install System
+# C Language CheatSheet
+This C cheatsheet is aimed to provide you with a quick syntax revision of C language. This will be helpful for students who need a quick syntax revision right before their exams or professionals to quickly look at the C language syntax. Let's start with the basics and move toward the more intricate aspects of C programming.
+## Basics
+
+## Install System
 
       pkg intall git
       pkg intall python -y
