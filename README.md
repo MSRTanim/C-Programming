@@ -6,17 +6,112 @@ This is a source file for C Programming Language. Read attentively the Redme fil
 # C Language CheatSheet
 This C cheatsheet is aimed to provide you with a quick syntax revision of C language. This will be helpful for students who need a quick syntax revision right before their exams or professionals to quickly look at the C language syntax. Let's start with the basics and move toward the more intricate aspects of C programming.
 ## Basics
+Basic syntax and functions from the C programming language.
 
-## Install System
+## Boilerplate Code
+
+      #include <stdio.h> //hader files
+      int main () //main function
+      {
+            //Your code here
+            return (0); //returning value to int main()
+      }
+
+
+## printf function
+It is used to show output on the screen
+
+      printf("Hello World!")
+
+## Scanf function
+It is used to take input from the user
+
+      scanf("format_specifier", &variables)
+      int a;
+
+We use & with the variable name to represent "address of". This is how the syntax works:
+
+      scanf("%d",&a); // Store keyboard input in a variable with address (address of a or &a)
+      printf("%d",&a);
+
+## Comments
+A comment is a code that is not executed by the compiler, and the programmer uses it to annotate their code, providing explanations or reminders about the code's functionality, which aids in readability and future maintenance.
+
+## Single line comment
+
+      // This is a single line comment
+
+## Multi-line comment
+
+      /* This is a 
+      multi-line
+      comment
+      */
+
+## Data types
+The data type defines the kind of data that can be stored in a variable, such as integers, floating-point numbers, characters, or more complex structures. It dictates how the data is stored, interpreted, and manipulated within the program.
+
+## Character type
+The character type, often represented as a single octet (one byte), is used to store individual characters in the C programming language.
+
+      char variable_name;
+
+The format specifier for a character in C is "%c". To print a character, we use this specifier within the printf function, following the syntax like this:
+      
+      char x;
+      scanf(" %c",&x);
+      printf("character is %c",x)
+
+## Integer type
+To store non-decimal numeric values, an integer type is used
+
+      int variable_name;
+
+The format specifier of an integer is "%d"
+
+      int a;
+      scanf("%d",&a);
+      printf("%d",a);
+
+## Float type
+To store decimal numeric values, float type is used
+
+      float variable_name;
+
+The format specifier of a float is "%f"
+
+      float b;
+      scanf("%f",&b);
+      printf("%f",b);
+
+## Boilerplate Code
 
       pkg intall git
-      pkg intall python -y
-      rm -rf TERMUX-SETUP-PRO
-      git clone https://github.com/MSRTanim/TERMUX-SETUP-PRO.git
-	  ls
-      cd TERMUX-SETUP-PRO
-	  ls
-      python Pro-Setup.py
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+
+## Boilerplate Code
+
+      pkg intall git
+      
 
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F716&width=435&lines=%F0%9F%91%8BHELLO+WORLD+I'M+TANIM+HERE%F0%9F%92%81%F0%9F%8F%BB%E2%80%8D%E2%99%82%EF%B8%8F;%E2%98%A3%EF%B8%8FCEO+OF+TOXIC+CYBER+SECURITY%E2%98%A3%EF%B8%8F;%F0%9F%92%81%F0%9F%8F%BB%E2%80%8D%E2%99%82%EF%B8%8FPLEASE+FOLLOW+MY+GITHUB%F0%9F%92%96;%F0%9F%92%BBTHANKS+ALL+MY+FAMILY+MEMBERS%F0%9F%94%A5)](https://git.io/typing-svg)
