@@ -137,53 +137,128 @@ For example, the escape sequence \n represents a newline character, and \t repre
     return 0;
     }
 
-## Boilerplate Code
+## Newline
+Newline Character
 
-      pkg intall git
+      #include<stdio.h>
+      int main()
+      {
+    printf("Line one\nLine two"); // Prints two lines
+    return 0;
+    }
 
-## Boilerplate Code
+## Carriage return
+The carriage return, represented by the escape sequence \r in the C programming language, is a control character that resets the cursor position to the beginning of the current line. It doesn't erase any characters but simply moves the cursor to the start of the line. The string "Hello" is printed first, then the carriage return moves the cursor back to the beginning of the line, and "World" is printed, overwriting "Hello."
 
-      pkg intall git
+      #include<stdio.h>
+      int main()
+      { 
+    printf("Hello\rWorld"); // Outputs "World" but behavior might vary depending on the OS
+    return 0;
+    }
 
-## Boilerplate Code
+## Tab
+It gives a tab space
 
-      pkg intall git
+      #include<stdio.h>
+      int main()
+      {
+    printf("Tabbed\ttext"); // Adds a tab space
+    return 0;
+    }
 
-## Boilerplate Code
+## Backslash
+It adds a backslash
 
-      pkg intall git
+      #include<stdio.h>
+      int main()
+      {
+    printf("\\"); // Prints a backslash
+    return 0;
+    }
 
-## Boilerplate Code
+## Single quote
+It adds a single quotation mark
 
-      pkg intall git
+      #include<stdio.h>
+      int main()
+      {
+    printf("\'"); // Prints a single quotation mark
+    return 0;
+    }
+    
+## Question mark
+It adds a question mark
 
-## Boilerplate Code
+      #include<stdio.h>
+      int main()
+      {
+    printf("\?"); // Prints a question mark
+    return 0;
+    }
 
-      pkg intall git
+## Octal No.
+It represents the value of an octal number
 
-## Boilerplate Code
+      #include<stdio.h>
+      int main()
+      {
+    printf("\101"); // Prints 'A', which is 101 in octal
+    return 0;
+    }
+    
+## Hexadecimal No.
+It represents the value of a hexadecimal number
 
-      pkg intall git
+      #include<stdio.h>
+      int main()
+      {
+    printf("\x41"); // Prints 'A', which is 41 in hexadecimal
+    return 0;
+    }
 
-## Boilerplate Code
+## Null
+The null character is usually used to terminate a string
 
-      pkg intall git
+      #include<stdio.h>
+      int main()
+      {
+    printf("\0");
+    char str[] = "Hello\0World"; // The null character is used to terminate a string
+    return 0;
+    }
+    
+## Conditional Instructions
+Conditional statements are used to perform operations based on some condition.
+## If Statement
 
-## Boilerplate Code
+      if (/* condition */)
+      {
+    /* code */
+    }
 
-      pkg intall git
+## If-else Statement
 
-## Boilerplate Code
+      if (/* condition */)
+      {
+    /* code */
+    }
+    else{
+    /* Code */
+    }
 
-      pkg intall git
 
-## Boilerplate Code
+## if else-if Statement
 
-      pkg intall git
-
-## Boilerplate Code
-
-      pkg intall git
+      if (condition) {
+    // Statements;
+    }
+    else if (condition){
+    // Statements;
+    }
+    else{
+    // Statements
+    }
 
 ## Boilerplate Code
 
