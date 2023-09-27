@@ -260,54 +260,131 @@ Conditional statements are used to perform operations based on some condition.
     // Statements
     }
 
-## Boilerplate Code
+## nested if-else
 
-      pkg intall git
+      if (/* condition */) {
+            if (/* condition */) {
+        /* code */
+    } else {
+        /* Code */
+    }
+    } else {
+    /* Code */
+    }
 
-## Boilerplate Code
+## Switch Case Statement
+It allows a variable to be tested for equality against a list of values (cases).
 
-      pkg intall git
+      switch (expression) {
+    case constant-expression:
+        statement1;
+        statement2;
+        break;
+    case constant-expression:
+        statement;
+        break;
+    // ...
+    default:
+        statement;
+        }
 
-## Boilerplate Code
+## Iterative Statements
+Iterative statements facilitate programmers to execute any block of code lines repeatedly and can be controlled as per conditions added by the programmer.
 
-      pkg intall git
+## while Loop
+It allows the execution of statements inside the block of the loop until the condition of the loop succeeds.
 
-## Boilerplate Code
+      while (/* condition */)
+      {
+    /* code */
+    }
 
-      pkg intall git
+## do-while loop
+It is an exit-controlled loop. It is very similar to the while loop with one difference, i.e., the body of the do-while loop is executed at least once even if the expression is false
 
-## Boilerplate Code
+      do
+      {
+    /* code */
+    } while (/* condition */);
 
-      pkg intall git
+## for loop
+It is used to iterate the statements or a part of the program several times. It is frequently used to traverse the data structures like the array and linked list.
 
-## Boilerplate Code
+      for (int i = 0; i < count; i++)
+      {
+    /* code */
+    }
 
-      pkg intall git
+## Break Statement
+break keyword inside the loop is used to terminate the loop
 
-## Boilerplate Code
+      #include <stdio.h>
+      int main() {
+            for (int i = 0; i < 10; i++) {
+                  if (i == 5) {
+                        printf("Loop is breaking at i = 5\n");
+                        break; // Exit the loop when i is 5
+                        }
+                        printf("i = %d\n", i);
+                        }
+                        return 0;
+                        }
 
-      pkg intall git
+Here is the output of the above code:
 
-## Boilerplate Code
+      i = 0
+      i = 1
+      i = 2
+      i = 3
+      i = 4
+      Loop is breaking at i = 5
 
-      pkg intall git
+## Continue Statement
+continue keyword skips the rest of the current iteration of the loop and returns to the starting point of the loop
 
-## Boilerplate Code
+      #include <stdio.h>
+      int main() {
+            for (int i = 1; i <= 10; i++) {
+                  if (i % 2 == 0) {
+            continue; // Skip the rest of the loop body if i is even
+        }
+        printf("%d ", i); // Print the odd numbers
+    }
+    return 0;
+    }
+    
+    // Output is 1 3 5 7 9
 
-      pkg intall git
 
-## Boilerplate Code
+## Functions & Recursion
+Functions are used to divide an extensive program into smaller pieces. It can be called multiple times to provide reusability and modularity to the C program.
 
-      pkg intall git
+## Function Definition
 
-## Boilerplate Code
+      return_type function_name(data_type parameter...){ 
+            //code to be executed 
+            }
 
-      pkg intall git
+## Function Call
 
-## Boilerplate Code
+      function_name(parameters...);
 
-      pkg intall git
+## return_type in functions
+The function return statement returns the specified value or data item to the caller. If we do not want to return any value simply place a void before the function name while defining it.
 
+      return_type function_name()
+      {
+    return value;
+    }
+
+## Parameters in Python function
+Parameters are the values passed inside the parenthesis of the function while defining as well as while calling.
+
+      return_type function_name(data_type parameter...){    //defining the functions with parameters
+    //code to be executed 
+    }
+    function_name(parameter...);    //calling the functions with parameters
+    
 ## Boilerplate Code
 
       pkg intall git
