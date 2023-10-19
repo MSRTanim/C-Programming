@@ -384,34 +384,74 @@ Parameters are the values passed inside the parenthesis of the function while de
     //code to be executed 
     }
     function_name(parameter...);    //calling the functions with parameters
-    
+
+### Ways of calling a function
+1. With return value and with parameters.
+2. Without return value and with parameters.
+3. With return value and without parameters.
+4. Without return value and without parameters.
+
+## Recursion
+Recursion is when a function calls a copy of itself to work on a minor problem. And the function that calls itself is known as the Recursive function.
+
+      void recurse()
+      {
+    ... .. ...
+    recurse();
+    ... .. ...
+    }
+
+## Pointers
+A pointer is a variable that contains the address of another variable,
+
+## Declaration
+
+      datatype *var_name;
+
+We can allocate the address of the pointing variable to the pointer variable
+
+      #include <stdio.h>
+      
+      int main() {
+    int *ptr, x;
+    x = 15;
+    ptr = &x;
+
+    // This will print the address of x, not the value 15
+    printf("%p", ptr);
+
+    return 0;
+    }
+ 
+## Dereferencing pointer variable
+
+      #include <stdio.h>
+      
+      int main() {
+    int *ptr, x;
+    x = 12;
+    ptr = &x; // Assign the address of x to ptr
+    printf("%d", *ptr); // Dereference ptr to print the value of x
+
+    return 0;
+    }
+
+## Arrays
+An array is a collection of data items of the same type.
+
+## Declaration
+
+      data_type array_name[array_size];
+
 ## Boilerplate Code
 
       pkg intall git
 
-## Boilerplate Code
-
-      pkg intall git
-
-## Boilerplate Code
-
-      pkg intall git
-
-## Boilerplate Code
-
-      pkg intall git
-
-## Boilerplate Code
-
-      pkg intall git
-
-## Boilerplate Code
-
-      pkg intall git
-
-## Boilerplate Code
-
-      pkg intall git
+      #include<stdio.h>                         
+      int main()                               
+      {
+      int arr[10];   
+      }
 
 ## Boilerplate Code
 
