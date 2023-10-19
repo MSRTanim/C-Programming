@@ -443,8 +443,6 @@ An array is a collection of data items of the same type.
 
       data_type array_name[array_size];
 
-## Boilerplate Code
-
       pkg intall git
 
       #include<stdio.h>                         
