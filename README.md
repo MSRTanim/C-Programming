@@ -443,7 +443,7 @@ An array is a collection of data items of the same type.
 
       data_type array_name[array_size];
 
-      pkg intall git
+.
 
       #include<stdio.h>                         
       int main()                               
@@ -451,27 +451,159 @@ An array is a collection of data items of the same type.
       int arr[10];   
       }
 
-## Boilerplate Code
+## Accessing element
 
-      pkg intall git
+      data_type variable_name = array[index];
 
-## Boilerplate Code
+## Strings
+A string is a 1-D character array terminated by a null character ('\0')
 
-      pkg intall git
+## Declaration
 
-## Boilerplate Code
+      char str_name[size];
 
-      pkg intall git
+## gets() function
+It allows you to enter a multi-word string.
 
-## Boilerplate Code
+      gets("string");
 
-      pkg intall git
+## puts() function
+It is used to show string output
 
-## Boilerplate Code
+      puts("string");
 
-      pkg intall git
-      
+## fgets() function
+The gets() function is considered unsafe, and it is better to use fgets() instead.
 
+      #include <stdio.h>
+      int main() {
+    char str[50];
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);
+    printf("You entered: %s", str);
+    return 0;
+    }
+
+## String Functions 
+## strlen() function
+It is used to calculate the length of the string
+
+      strlen(string_name);
+
+## strcpy() function
+It is used to copy the content of second-string into the first string passed to it
+
+      strcpy(destination, source);
+
+## strcat() function
+It is used to concatenate two strings
+
+      strcat(first_string, second_string);
+
+## strcmp() function
+It is used to compare two strings
+
+      strcmp(first_string, second_string);
+
+## strlwr() function
+It is used to convert characters of strings into lowercase
+
+      strlwr(string_name);
+
+## strupr() function
+It is used to convert characters of strings into uppercase
+
+      strupr(string_name);
+
+## strrev() function
+It is used to reverse the string
+
+      strrev(string_name);
+
+## Structures
+The structure is a collection of variables of different types under a single name. Defining structure means creating a new data type.
+
+## Structure syntax
+
+      struct structureName 
+      {
+    dataType member1;
+    dataType member2;
+    ...
+    };
+
+## typedef keyword
+typedef function allows users to provide alternative names for the primitive and user-defined data types.
+
+      typedef struct structureName 
+      {
+    dataType member1;
+    dataType member2;
+    ...
+    } new_name;
+
+## File Handling
+A set of methods for handling File IO (read/write/append) in C language
+## FILE pointer
+
+      FILE *filePointer;
+
+## Opening a file
+It is used to open a file in C.
+
+      filePointer = fopen(fileName.txt, w)
+
+## fscanf() function
+It is used to read the content of a file.
+
+      fscanf(FILE *stream, const char *format, ...)
+
+## fprintf() function
+It is used to write content into the file.
+
+      fprintf(FILE *fptr, const char *str, ...);
+
+
+## fgetc() function
+It reads a character from a file opened in read mode. It returns EOF on reaching the end of the file.
+
+      fgetc(FILE *pointer);
+
+
+## fputc() function
+It writes a character to a file opened in write mode
+
+      fputc(char, FILE *pointer);
+
+## Closing a file
+It closes the file.
+
+      fclose(filePointer);
+
+## Dynamic Memory Allocation
+A set of functions for dynamic memory allocation from the heap. These methods are used to use the dynamic memory which makes our C programs more efficient
+
+## malloc() function
+Stands for 'Memory allocation' and reserves a block of memory with the given amount of bytes.
+
+      ptr = (castType*) malloc(size);
+
+## calloc() function
+Stands for 'Contiguous allocation' and reserves n blocks of memory with the given amount of bytes.
+
+      ptr = (castType*)calloc(n, size);
+
+## free function
+It is used to free the allocated memory.
+
+      free(ptr);
+
+## realloc() function
+If the allocated memory is insufficient, then we can change the size of previously allocated memory using this function for efficiency purposes
+
+      ptr = realloc(ptr, x);
+
+### I hope the provided information covers what you need. I tried to cover almost all the important topics of C.
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F716&width=435&lines=%F0%9F%91%8BHELLO+WORLD+I'M+TANIM+HERE%F0%9F%92%81%F0%9F%8F%BB%E2%80%8D%E2%99%82%EF%B8%8F;%E2%98%A3%EF%B8%8FCEO+OF+TOXIC+CYBER+SECURITY%E2%98%A3%EF%B8%8F;%F0%9F%92%81%F0%9F%8F%BB%E2%80%8D%E2%99%82%EF%B8%8FPLEASE+FOLLOW+MY+GITHUB%F0%9F%92%96;%F0%9F%92%BBTHANKS+ALL+MY+FAMILY+MEMBERS%F0%9F%94%A5)](https://git.io/typing-svg)
 
